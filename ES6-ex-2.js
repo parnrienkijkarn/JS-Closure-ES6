@@ -17,4 +17,8 @@ let newStudentProfile = {
   ...studentProfile,
   scores: { ...studentProfile.scores, ...studentScores },
 };
+
+// หรือแบบนี้ก็ได้เช่นกัน
+// newStudentProfile = { ...studentProfile };
+// newStudentProfile.scores = { ...studentProfile.scores, ...studentScores };
 console.log(newStudentProfile);

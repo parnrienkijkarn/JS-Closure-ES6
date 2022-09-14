@@ -13,4 +13,8 @@ let additionalHobbies = ["Painting", "Yoga"];
 let newStudentProfile = {
   ...studentProfile, 
   hobbies: [...studentProfile.hobbies, ...additionalHobbies]};
+
+  // หรือแบบนี้ก็ได้เช่นกัน 
+//   newStudentProfile = { ...studentProfile };
+// newStudentProfile.hobbies = [...studentProfile.hobbies, ...additionalHobbies];
 console.log(newStudentProfile);

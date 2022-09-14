@@ -1,7 +1,9 @@
 function addByX(x) {
+  // let quantity = x;
   // Start coding here
   function find(a) {
-  return x + a;
+  quantity = x + a;
+  return quantity;
 }
 return find;
 }

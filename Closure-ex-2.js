@@ -10,7 +10,7 @@ return {
     addByX,
     subtractByX
 }
-}
+};
 
 
 // Uncomment โค้ดด้านล่างเพื่อดูผลลัพธ์ของการทำงาน
